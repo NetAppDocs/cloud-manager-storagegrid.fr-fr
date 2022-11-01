@@ -1,0 +1,16 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: 'Discover your StorageGRID systems through BlueXP (formerly Cloud Manager) to get a complete view of data across your hybrid multicloud.' 
+summary: 'Découvrez vos systèmes StorageGRID via BlueXP (anciennement Cloud Manager) pour bénéficier d"une vue complète des données dans l"ensemble de votre multicloud hybride.' 
+---
+= Documentation StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

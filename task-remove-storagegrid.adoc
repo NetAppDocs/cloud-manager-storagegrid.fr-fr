@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task-remove-storagegrid.html 
+keywords: storagegrid, cluster, remove, delete, remove storagegrid, delete cluster, delete working environment, remove working environment 
+summary: Supprimez un environnement de travail StorageGRID si vous ne souhaitez plus le gérer depuis BlueXP. 
+---
+= Supprimer un environnement de travail StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Supprimez un environnement de travail StorageGRID si vous ne souhaitez plus le gérer depuis BlueXP.
+
+La suppression de l'environnement de travail n'affecte pas le système StorageGRID. Vous pouvez le redécouvrir depuis BlueXP à tout moment.
+
+.Étapes
+. Dans la zone de travail, double-cliquez sur le nom de l'environnement de travail StorageGRID.
+. Cliquez sur l'icône de menu et sélectionnez *Supprimer de l'espace de travail*.
++
+image:screenshot-remove.png["Capture d'écran de l'option Supprimer de l'espace de travail disponible dans le menu supérieur droit de l'environnement de travail."]
+
+. Cliquez sur *Supprimer* pour confirmer.
+

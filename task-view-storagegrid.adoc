@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task-view-storagegrid.html 
+keywords: storagegrid, cluster, view, alerts, nodes, tenants, capacity, used capacity, free capacity, system ID, domain, IP, object data used, object metadata used, cpu usage, quota utilization, quota 
+summary: Une fois que vous avez découvert vos systèmes StorageGRID, vous pouvez consulter des informations détaillées sur la distribution de la capacité ainsi que les alertes, nœuds et locataires associés. 
+---
+= Afficher vos systèmes StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+Une fois que vous avez découvert vos systèmes StorageGRID, vous pouvez consulter des informations détaillées sur la distribution de la capacité ainsi que les alertes, nœuds et locataires associés.
+
+.Étapes
+. Dans la zone de travail, double-cliquez sur le nom de l'environnement de travail StorageGRID que vous souhaitez afficher.
+. Sélectionnez l'un des onglets pour afficher plus d'informations sur votre système StorageGRID :
++
+** *Présentation* : vue détaillée de la distribution de la capacité du système (capacité utilisée et capacité libre), du nombre d'alertes système, de nœuds et de locataires, et plus encore.
++
+image:screenshot-overview.png["Capture d'écran de l'onglet Overview dans un environnement de travail StorageGRID."]
+
+** *Alertes* : un résumé des alertes système, qui comprend les alertes actives, les alertes résolues et les alertes désactivées.
+** *Nodes* : détails sur le nœud d'administration, le nœud de passerelle d'API et les nœuds de stockage. Cela inclut les pourcentages pour les données d'objet utilisées, les métadonnées d'objet utilisées et l'utilisation du processeur.
++
+image:screenshot-nodes.png["Copie d'écran de l'onglet nœuds dans un environnement de travail StorageGRID."]
+
+** *Locataires* : détails clés sur les locataires, qui comprennent l'espace logique utilisé, l'utilisation des quotas, le quota et le nombre d'objets.
++
+image:screenshot-tenants.png["Copie d'écran de l'onglet locataires dans un environnement de travail StorageGRID."]
+
+
+
+

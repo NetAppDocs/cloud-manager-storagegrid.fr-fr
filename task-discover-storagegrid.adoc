@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: task-discover-storagegrid.html 
+keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
+summary: 'BlueXP peut découvrir les systèmes StorageGRID dans votre environnement sur site. L"ajout de clusters StorageGRID à BlueXP vous permet d"obtenir une vue complète des données dans votre environnement multicloud hybride.' 
+---
+= Découvrir les systèmes StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+BlueXP peut découvrir les systèmes StorageGRID dans votre environnement sur site. L'ajout de systèmes StorageGRID à BlueXP vous permet d'obtenir une vue complète des données dans l'ensemble de votre environnement multicloud hybride.
+
+.Ce dont vous avez besoin, 8217;ll
+* Connecteur installé dans un fournisseur cloud ou sur site, avec connectivité réseau au système StorageGRID.
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["En savoir plus sur les connecteurs et comment en créer un"^]
+
+* Le nom de domaine ou l'adresse IP du nœud admin.
+* Informations d'identification d'administration pour le nœud admin
+
+
+.Étapes
+. Dans le menu de navigation, sélectionnez *stockage > Canvas*.
+. Cliquez sur *Ajouter un environnement de travail* et sélectionnez *sur site*.
+. Sélectionnez *StorageGRID* et cliquez sur *Suivant*.
+. Si vous y êtes invité, créez un connecteur.
++
+Reportez-vous au lien ci-dessus pour en savoir plus.
+
+. Sur la page _StorageGRID Détails du cluster_, entrez le nom de domaine ou l'adresse IP du nœud admin, les informations d'identification du nœud, puis cliquez sur *Ajouter*.
++
+image:screenshot-cluster-details.png["Une capture d'écran affiche la page Détails du cluster StorageGRID, dans laquelle vous saisissez le nom de domaine ou l'adresse IP du nœud admin et les identifiants."]
+
+
+
+BlueXP découvre le système StorageGRID et l'ajoute comme un environnement de travail sur la toile.
+
+image:screenshot-canvas.png["Capture d'écran montrant un environnement de travail StorageGRID sur la toile BlueXP."]
