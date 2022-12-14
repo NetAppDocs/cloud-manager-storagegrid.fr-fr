@@ -15,7 +15,7 @@ summary: 'BlueXP peut découvrir les systèmes StorageGRID dans votre environnem
 
 BlueXP peut découvrir les systèmes StorageGRID dans votre environnement sur site. L'ajout de systèmes StorageGRID à BlueXP vous permet d'obtenir une vue complète des données dans l'ensemble de votre environnement multicloud hybride.
 
-.Ce dont vous avez besoin, 8217;ll
+.Ce dont vous avez besoin
 * Connecteur installé dans un fournisseur cloud ou sur site, avec connectivité réseau au système StorageGRID.
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["En savoir plus sur les connecteurs et comment en créer un"^]
@@ -38,6 +38,7 @@ image:screenshot-cluster-details.png["Une capture d'écran affiche la page Déta
 
 
 
+.Résultat
 BlueXP découvre le système StorageGRID et l'ajoute comme un environnement de travail sur la toile.
 
 image:screenshot-canvas.png["Capture d'écran montrant un environnement de travail StorageGRID sur la toile BlueXP."]
